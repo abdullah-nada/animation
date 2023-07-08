@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+
+.icons1{
+     /* width: 100px;
+     height: 50px; 
+    background-color: yellow;  */
+    font-size: 30px;
+    color: blue;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function:  ease-in;
+}
+
+@keyframes change{
+    0%{
+        /* background-color: blue; */
+        left: 0px;
+    }
+    /* 25%{
+        background-color: aqua;
+    }
+    50%{
+          background-color: antiquewhite;
+    } */
+    100%{
+        /* background-color: yellowgreen; */
+       left: 1000px;
+    }
+}
+
+/* -------------- */
+
+.icons2{
+    /* width: 100px;
+    height: 50px;
+    background-color: orangered; */
+    color: blueviolet;
+    font-size: 30px;
+    top: 60px;
+    position: absolute;
+    animation-name: change2;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-timing-function:  ease-in;
+    animation-fill-mode: forwards;
+    transform: rotateY(180deg);
+    margin-left: 1000px;
+}
+
+@keyframes change2{
+    0%{
+        /* background-color: blue; */
+        right: 0px;
+    }
+    /* 25%{
+        background-color: aqua;
+    }
+    50%{
+          background-color: antiquewhite;
+    } */
+    100%{
+        /* background-color: khaki; */
+        right: 1000px;
+    }
+}
+
+/* ------------------------------------------------------ */
+
+.icons3{
+    /* width: 100px;
+    height: 50px;
+    background-color: orange; */
+    font-size: 30px;
+    color: brown;
+    top: 120px;
+    position: absolute;
+    animation-name: change3;
+    animation-timing-function:  ease-in;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes change3{
+    0%{
+        /* background-color: blue; */
+        left: 0px;
+    }
+    /* 25%{
+        background-color: aqua;
+    }
+    50%{
+          background-color: antiquewhite;
+    } */
+    100%{
+        /* background-color: lime; */
+        left: 1000px;
+    }
+}
+
+/* ----------------- */
+
+.icons4{
+    /* width: 100px;
+    height: 50px;
+    background-color: rosybrown; */
+    font-size: 30px;
+    color: red;
+    top: 220px;
+    position: absolute;
+    animation-name: change4;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    transform: rotateY(180deg);
+    margin-left: 1000px;
+}
+
+@keyframes change4{
+    0%{
+        /* background-color: blue; */
+        right: 0px;
+    }
+    /* 25%{
+        background-color: aqua;
+    }
+    50%{
+          background-color: antiquewhite;
+    } */
+    100%{
+        /* background-color: hotpink; */
+        right: 1000px;
+    }
+}
+/* ------------ */
+
+.icons5{
+    /* width: 100px;
+    height: 50px;
+    background-color: orange; */
+    font-size: 30px;
+    color: orange;
+    top: 320px;
+    position: absolute;
+    animation-name: change5;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes change5{
+    0%{
+        /* background-color: blue; */
+        left: 0px;
+    }
+    /* 25%{
+        background-color: aqua;
+    }
+    50%{
+          background-color: antiquewhite;
+    } */
+    100%{
+        /* background-color: yellow; */
+        left: 1000px;
+    }
+}
+/* ----------- */
+
+.icons6{
+    /* width: 100px;
+    height: 50px;
+    background-color: mediumslateblue; */
+    font-size: 30px;
+    color: orangered;
+    top: 400px;
+    position: absolute;
+    animation-name: change4;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    transform: rotateY(180deg);
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    margin-left: 1000px;
+}
+
+@keyframes change6{
+    0%{
+        /* background-color: blue; */
+        right: 0px;
+    }
+    /* 25%{
+        background-color: aqua;
+    }
+    50%{
+          background-color: antiquewhite;
+    } */
+    100%{
+        /* background-color: cornflowerblue; */
+        right: 1000px;
+    }
+}
